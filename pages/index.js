@@ -14,7 +14,7 @@ export default function Home() {
     <Hero />
     <About />
     <Gallery />
-    <Contact />
+    {/* <Contact /> */}
     <div className='fixed bottom-0 z-50 w-full md:hidden lg:hidden xl:hidden 2xl:hidden'>
       <Menubar />
     </div>
