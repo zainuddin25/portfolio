@@ -12,8 +12,8 @@ import hero from "../../public/hero.png"
 
 export default function Hero(){
     return (
-        <div className="container md:flex lg:flex xl:flex lg:items-center lg:py-20 md:items-center">
-            <div className="w-full px-10 py-20 text-center md:text-left md:w-4/6 lg:w-2/4 xl:w-2/4">
+        <div className="container mx-auto md:flex lg:flex xl:flex lg:items-center lg:justify-center lg:py-20 md:items-center">
+            <div className="w-full px-10 py-20 text-center md:text-left md:w-4/6 lg:w-2/4 xl:w-2/4 md:justify-center">
                 <h1 className="text-2xl font-bold font-poppins">Lorem ipsum dolor sit amet consectetur</h1>
                 <p className="pt-2 text-xs lg:text-sm font-poppins text-slate-400">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in ultricies felis, 
