@@ -11,7 +11,7 @@ export default function Gallery() {
             <div className="container mx-auto">
                 <h1 className="mb-10 text-center font-poppins">Gallery</h1>
                 <div className="lg:grid lg:grid-cols-5 lg:gap-4">
-                    <div class="lg:col-span-2 lg:row-span-2">
+                    <div className="lg:col-span-2 lg:row-span-2">
                         <Image src={image1} width={1000} height={1000} />
                     </div>
                     <div>
@@ -41,7 +41,7 @@ export default function Gallery() {
                     <div>
                         <Image src={image3} width={1000} height={1000} />
                     </div>
-                    <div class="lg:col-span-2 lg:row-span-2">
+                    <div className="lg:col-span-2 lg:row-span-2">
                         <Image src={image1} width={1000} height={1000} />
                     </div>
                     <div>

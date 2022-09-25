@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function Header(){
     return (
         <div className="w-full bg-white">
-            <div className="flex items-center justify-between w-full px-10 py-4 mx-auto bg-white">
+            <div className="container flex items-center justify-between w-full px-10 py-4 mx-auto bg-white">
                 <h1 className="text-xl font-semibold font-poppins lg:text-2xl">Roctopus</h1>
                 <div className="justify-center hidden md:flex">
                     <Link href="/">
